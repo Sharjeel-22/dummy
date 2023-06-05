@@ -7,7 +7,6 @@ import { AddUserComponent } from './add-user/add-user.component';
 import { DeleteUserComponent } from './delete-user/delete-user.component';
 import { UpdateUserDetailComponent } from './update-user-detail/update-user-detail.component';
 import { UpdatePasswordComponent } from './update-password/update-password.component';
-import { RegistrationComponent } from './registration/registration.component';
 import { UserRegistrationComponent } from './user-registration/user-registration.component';
 import { UserLoginComponent } from './user-login/user-login.component';
 import { HeaderComponent } from './header/header.component';
@@ -23,7 +22,6 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     DeleteUserComponent,
     UpdateUserDetailComponent,
     UpdatePasswordComponent,
-    RegistrationComponent,
     UserRegistrationComponent,
     UserLoginComponent,
     HeaderComponent,
@@ -34,7 +32,7 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
